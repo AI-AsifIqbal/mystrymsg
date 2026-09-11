@@ -1,5 +1,7 @@
 # 🕵️‍♂️ Mystery Message
 
+> 🚀 **Live Demo**: [https://mystrymsg-two.vercel.app](https://mystrymsg-two.vercel.app)
+
 A full-stack, anonymous messaging and feedback platform built with **Next.js 16 (App Router)**, **TypeScript**, **Tailwind CSS v4**, and **MongoDB**. Users can create an account, verify their email via OTP, share their unique public profile link, receive anonymous messages, toggle message acceptance, and leverage **Google Gemini AI** for smart question suggestions.
 
 ---
