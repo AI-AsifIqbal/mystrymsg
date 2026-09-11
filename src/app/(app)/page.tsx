@@ -13,6 +13,8 @@ import {
 } from "@/components/ui/carousel"
 import Autoplay from "embla-carousel-autoplay"
 import messages from "@/messages.json"
+import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 const Home = () => {
   return (
@@ -62,6 +64,12 @@ const Home = () => {
           <CarouselPrevious />
           <CarouselNext />
         </Carousel>
+
+        <Button className='mt-5'>
+          <Link href={'/u/asif'}>
+          Send Anonymous Message to Admin
+          </Link>
+        </Button>
       </main>
 
       <footer className="text-center p-4 md:p-6">
